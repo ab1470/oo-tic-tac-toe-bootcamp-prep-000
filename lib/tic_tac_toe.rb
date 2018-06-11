@@ -81,10 +81,11 @@ class TicTacToe
       return @board[won?.first]
     end
   end
-end
-
-def play
+  
+  def play
   until over?
     turn
   end
 end
+end
+
