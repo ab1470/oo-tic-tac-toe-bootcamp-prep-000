@@ -63,4 +63,8 @@ class TicTacToe
       win_combination.all? {|position| @board[position] == "X"} || win_combination.all? {|position| @board[position] == "O"}
     end
   end
+  
+  def full?
+    @board.all? {|position| @board[position] == "X" || @board[position] == "O"}
+  end
 end
