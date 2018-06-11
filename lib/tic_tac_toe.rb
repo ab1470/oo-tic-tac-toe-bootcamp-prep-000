@@ -66,7 +66,7 @@ class TicTacToe
       win_combination.all? do |position|
         @board[position] == "O"
         
-      win_combination.all? {|position| @
+      win_combination.all? {|position| @board[position] == "X"} || 
       end
     end
   end
