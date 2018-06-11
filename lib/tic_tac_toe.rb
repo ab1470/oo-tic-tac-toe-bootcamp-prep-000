@@ -66,4 +66,5 @@ class TicTacToe
         @board[position] == "O"
     end
   end
+  
 end
