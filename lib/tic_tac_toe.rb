@@ -59,6 +59,6 @@ class TicTacToe
   end
   
   def won?
-    @board.detect 
+    
   end
 end
