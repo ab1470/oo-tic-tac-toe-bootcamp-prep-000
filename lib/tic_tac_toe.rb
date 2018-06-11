@@ -59,6 +59,7 @@ class TicTacToe
   end
   
   def won?
-    
+    WIN_COMBINATIONS.detect do |win_combination|
+      @board[win_combination.all?]
   end
 end
