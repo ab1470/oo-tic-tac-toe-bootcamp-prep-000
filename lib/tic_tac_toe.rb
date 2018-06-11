@@ -61,7 +61,6 @@ class TicTacToe
   def won?
     WIN_COMBINATIONS.detect do |win_combination|
       win_combination.all? {|position| @board[position] == "X"} || win_combination.all? {|position| @board[position] == "O"}
-      end
     end
   end
 end
