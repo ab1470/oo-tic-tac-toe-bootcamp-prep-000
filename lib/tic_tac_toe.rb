@@ -57,4 +57,8 @@ class TicTacToe
       turn
     end
   end
+  
+  def won?
+    @board.detect 
+  end
 end
